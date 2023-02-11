@@ -1,0 +1,343 @@
+body{
+				background-color: #fbfbff;
+			 font-family: 'Kanit', sans-serif;
+				
+			  /* margin: 0 7px; */
+}		
+
+#sect{
+	margin-right: 430px;
+}
+
+.box{
+				width: 100%;
+				background-colr: #121d6e;
+				margin-top: -10px;
+				padding: 8px;
+				border-botto: #ff5f2b 2px solid;
+				
+}	
+.box h1{
+				font-family: "Oswald", Arial;
+				text-align: center;
+				font-size: 18px;
+				color: #121d6e;
+				padding: 15px 0px;
+}
+
+.box h3{
+				font-family: "sofia", cursive;
+				font-size: 16px;
+				text-align: center;
+				color: #ff5415;
+				padding-top: -10px;
+				padding-bottom: 20px;
+				margin: -15px;				
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e3e3f8; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9d9dab; 
+}
+
+/*login and signup page style*/
+.login-page{
+	width: 75%;
+	height: ;
+	background-color: #121d6e;
+	color: whitesmoke;
+	margin-top: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+	padding: 10px;
+	box-shadow: 1px 2px 8px 0 rgba(0, 0, 0, 0.6);
+}
+
+.login-page h2{
+	font-size: 20px;
+	text-align: center;
+}
+
+label{
+	margin-left: 15px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+	display: block;
+	margin: 5px 15px 5px 15px;
+	border: 1px #ff5415 solid;
+	border-radius: 3px;
+	width: 80%;
+	padding: 3px;
+	color: #121d6e;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+
+::placeholder {
+	font-size: 14px;
+	padding: 5px;
+}
+
+input[type="submit"]{
+	margin-left: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 14px;
+	padding: 5px 7px;
+}
+
+/*pre-exam/post-exam pages style*/
+.info-container{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	padding: 20px;
+	border: 2px #121d6e solid;
+	border-radius: 10px;
+}
+
+.info-container h3{
+	font-size: 22px;
+	color: #121d6e;
+}
+
+.info-container h4{
+	font-size: 18px;
+	color: #ff5415;
+}
+
+.info-container button{
+	margin-top: 5px;
+	padding: 6px 14px;
+	border-radius: 4px;
+	font-weight: bold;
+	color: #ff5415;
+	background-color: whitesmoke;
+	border: 2px #121d6e solid;
+}
+
+.info-container button:hover{
+	background-color: #ff5415;
+	color: whitesmoke;
+	border: none;
+}
+
+/*students page style*/
+.user-welcome h3{
+	margin-left: 10px;
+	font-size: 22px;
+	color: #121d6e;
+	text-decoration: underline #121d6e;
+}
+
+.quote-container{
+	width: 60%;
+	border: 2px #121d6e solid;
+	border-radius: 5px;
+	padding: 6px 14px;
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+.quote-container h4{
+	font-size: 16.5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.quote-container h5{
+	font-size: 16px;
+}
+
+.quote-container p{
+	text-align: justify;
+}
+
+.about{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 6px 14px;
+	background-color: whitesmoke;
+	box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.2);
+	text-align: justify;
+}
+
+.about h3{
+	text-align: center;
+	font-size: 18px;
+	color: #ff5415;
+}
+
+.material-box{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding: 6px 14px;
+	background-color: whitesmoke;
+	box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.material-box h3{
+	font-size: 22px;
+}
+
+.exam-btn a{
+	font-size: 18px;
+	font-weight: bold;
+	color: whitesmoke;
+	background-color: #ff5415;
+	padding: 5px;
+	margin-right: 4px;
+	border-radius: 5px;
+	text-decoration: blink;
+	box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.exam-btn a:hover{
+	color: #ff5415;
+	background-color: whitesmoke;
+}
+
+footer{
+	text-align: center;
+	margin-top: 150px;
+}
+
+footer h5{
+	font-size: 16px;
+	color: #121d6e;
+}
+
+footer h6{
+	font-size: 14px;
+	color: #ff5415;
+}
+
+.question-box{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	background-color: whitesmoke;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 2px 3px 6px 0 rgba(0, 0, 0, 0.08);
+	position: relative;
+}
+
+.question-box li{
+	list-style: none;
+	padding: 2px;
+}
+
+.question-box h3{
+	font-size: 20px;
+	color: #121d6e;
+}
+
+button{
+	margin-top: 25px;
+	color: whitesmoke;
+	background-color: #ff5415;
+	padding: 5px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+	border: 0 solid white;
+	font-family: helvetica;
+	font-weight: 550;
+}
+
+button:hover{
+	color: #ff5415;
+	background-color: whitesmoke;
+	border: 2px solid #121d6e;
+}
+
+.next{
+	position: absolute;
+	right: 20px;
+}
+
+.submit{
+	position: absolute;
+	right: 20px;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 550px ) {
+	.location{
+				 width: 90%;
+				 background-color: white;
+				 min-height: 200px;
+				 bordr: 1.5px solid #121d6e;
+				 border-radius: 5px;
+				 margin: 20px auto;				
+		 		 padding: 5px;
+				 height: auto;
+				 box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+	.cluster{
+		float: none;
+		width: 90%;
+		text-align: left;
+	}
+ }
+
+@media only screen and (min-width: 600px ) {
+	.img8capt{
+		float: left;
+		width: 33%;
+	}
+
+	.weekly-activities p{
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 1100px ) {
+	.big-width{
+		float: left;
+		width: 25%;
+	}
+}
+
+@media only screen and (min-width: 360px ) {
+	.sermons-float{
+		float: left;
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 640px ) {
+	.sermons-float{
+		float: left;
+		width: 25%;
+	}
+
+	#bible-verse{
+	width: 75%;
+}
+}
+
+@media only screen and (min-width: 1100px ) {
+	.sermons-float{
+		float: left;
+		width: 20%;
+	}
+}
